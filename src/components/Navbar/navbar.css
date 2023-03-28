@@ -17,11 +17,11 @@ body{
 }
 
 
-/* .navbar:hover{
+.navbar:hover{
     transition: ease-in-out 4000ms;
     filter: hue-rotate(1000deg);
-    transform: scaleX(102%);
-} */
+    transform: scaleX(101%);
+}
 
 .navbar-item{
     height : 30px;

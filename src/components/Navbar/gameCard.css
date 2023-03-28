@@ -1,5 +1,84 @@
-.gamecard {
-    width : 100px;
-    height : 100px;
-    background-color: red;
-}
+.game-card {
+    display: flex;
+    color : rgba(173, 255, 47,.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 250px;
+    align-items: center;
+    
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding: 16px;
+    margin : 13px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    transition: ease-in-out 500ms;
+  }
+  
+  .game-card:hover {
+    color : rgba(173, 255, 47,1);
+    background: linear-gradient(90deg, #1a1a1a, #0f0f0f, #1a1a1a);
+    z-index : 3;
+    transform: scale(105%);
+    transition: ease-in-out 800ms;
+    background: radial-gradient();
+    border: 2px solid green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition : ease-in-out 200ms;
+    border : 3px solid transparent;
+  }
+  
+  .game-card img:hover{
+    border-radius: 30%;
+    transition : ease-in-out 500ms;
+    border : 3px solid rgba(173, 255, 47,1);
+  }
+
+  .game-details {
+    flex: 1;
+  }
+  
+  .game-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .game-description {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .game-developer {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .game-developer span {
+    font-weight: bold;
+  }
+  
+  .play-now-btn {
+    border : 0.5px solid transparent;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .play-now-btn:hover {
+    background-color: #0062cc;
+    background: transparent;
+    border :0.5px solid white;
+  }
+  

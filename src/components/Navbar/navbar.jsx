@@ -25,7 +25,7 @@ function Navbar() {
     getApiData();
   }, []);
   return (
-    <>
+    <div>
     <div className='navbar d-flex'>
         <div className='navbar-item title' id = "title">
             GameFlow<sup>©</sup>
@@ -54,9 +54,9 @@ function Navbar() {
         <div className="navbar-item">
           <img className = 'imag3' src = {Xbox} />
         </div>
-        <Games games = {games} platform = {platform}/>
     </div>
-    </>
+    <Games games = {games} platform = {platform}/>
+    </div>
   )
 }
 
