@@ -1,0 +1,10 @@
+.mygamescontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 80px;
+    padding : 10px;
+    width : 90% auto;
+    position: absolute;
+    margin-top: 70px;
+    height: 200vh;
+}
